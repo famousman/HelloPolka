@@ -23,6 +23,7 @@ console.log(`${now}: balance of ${balance.free} and a nonce of ${nonce}`);
 
 // Retrieve the chain name
 const chain = await api.rpc.system.chain();
+// test
 
 // Retrieve the latest header
 const lastHeader = await api.rpc.chain.getHeader();
